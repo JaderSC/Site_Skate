@@ -2,10 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "poppins";
 }
-body{
-     background: linear-gradient(to left, black, yellow);
+
+body {
+    background-color: #f4f7f5;
 }
 
 .logo {
@@ -14,8 +15,12 @@ body{
     height: 100px;
 }
 
+main {
+    margin-top: 140px;
+}
 
 nav {
+    top: 0;
     position: fixed;
     width: 100dvw;
     display: flex;
@@ -24,7 +29,8 @@ nav {
     align-items: center;
     padding: 20px 60px 20px 20px;
     gap: 20px;
-    background: linear-gradient(to right, black, yellow);
+    background-color: #474350;
+
 }
 
 .links {
@@ -34,11 +40,12 @@ nav {
     gap: 50px;
     margin-left: 1400px;
     position: fixed;
+
 }
 
 li a {
     text-decoration: none;
-    color: black;
+    color: #FFC857;
     transition: font-size 0.6s, color 0.6s;
 }
 
@@ -49,15 +56,6 @@ li a {
 }
 
 .banner-conteudo {
-   background-image: url("./IMG/skateboarding-1149507-1920.webp");
-   background-repeat: no-repeat;
-   background-size:  cover;
-}
-
-
-
-
-.banner-conteudo  {
     font-family: dauphin;
     display: flex;
     flex-direction: column;
@@ -67,14 +65,16 @@ li a {
     font-size: 50px;
     gap: 50px;
     color: #f4f7f5;
-     
+    background-image: url("./IMG/skateboarding-1149507-1920.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
 h2 {
     display: flex;
     justify-content: center;
     font-size: 70px;
-    background: linear-gradient(to left, black, yellow);
     margin-top: 10px;
 }
 
@@ -83,7 +83,7 @@ h2 {
     justify-content: center;
     padding: 20px;
     gap: 130px;
-    background: linear-gradient(to left, black, yellow);
+
 
 }
 
@@ -97,15 +97,15 @@ img {
     justify-content: center;
     font-size: 40px;
     margin-bottom: 20px;
-    background: linear-gradient(to left, black, yellow);
+    background-color: #f4f7f5;
 }
 
 section form {
-    border: 2px solid black;
+    border: 2px solid rgb(255, 253, 253);
     width: 29dvw;
     padding: 5px 5px 5px 5px;
     margin-bottom: 20px;
-    background: linear-gradient(to left, black, yellow);
+    background-color: #d9d9d9;
 }
 
 .formulario {
@@ -121,7 +121,7 @@ section label {
 }
 
 input {
-    border: 2px solid black;
+    border: 2px solid rgb(240, 238, 238);
     width: 300px;
     display: flex;
     justify-content: center;
@@ -136,14 +136,14 @@ input {
 }
 
 button {
-    width: 100px;
+    width: 150px;
     height: 30px;
-    background: rgb(109, 105, 105);
+    background: #f4f7f5;
     color: black;
     font-weight: bold;
     border: none;
     position: relative;
-    left: 284px;
+    left: 230px;
     cursor: pointer;
     margin-top: 9px;
     transition: scale 0.4s, background-color 0.4s;
@@ -156,13 +156,41 @@ button:hover {
 }
 
 
-.not-info{
+.not-info {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
     padding: 10px;
-     background: linear-gradient(to left, black, yellow);
-    
+    background-color: #D9D9D9;
+    align-items: center;
+    justify-content: center;
 }
+
+.not-info h3 {
+    display: flex;
+    text-align: center;
+    margin-top: 20px;
+    gap: 10px;
+}
+
+footer  {
+       background: #474350;
+    display: flex;
+    justify-content: space-around;
+    width: 100dvw;
+    height: 150px;
+    font-size: 20px;
+   padding-left: 30px;
+   color: #FFC857;
+   align-items: center;
+}
+
+.logo-footer{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+
