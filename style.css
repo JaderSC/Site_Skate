@@ -4,20 +4,37 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
+body{
+     background: linear-gradient(to left, black, yellow);
+}
+
+.logo {
+    margin-left: 50px;
+    width: 100px;
+    height: 100px;
+}
 
 
-.links {
+nav {
     position: fixed;
     width: 100dvw;
     display: flex;
     z-index: 1000;
-    justify-content: end;
+    justify-content: space-between;
+    align-items: center;
     padding: 20px 60px 20px 20px;
     gap: 20px;
-    list-style: none;
     background: linear-gradient(to right, black, yellow);
 }
 
+.links {
+    display: flex;
+    list-style: none;
+    justify-content: end;
+    gap: 50px;
+    margin-left: 1400px;
+    position: fixed;
+}
 
 li a {
     text-decoration: none;
@@ -31,13 +48,16 @@ li a {
 
 }
 
-.banner {
-    background: url(https://media.gettyimages.com/id/842214034/pt/foto/skater-doing-a-stunt.jpg?s=612x612&w=gi&k=20&c=IolEi1HFwIZtgaqGSLTv7ZjhxhDd8YGp98zxUQELnY0=) no-repeat center center/cover;
-
-
+.banner-conteudo {
+   background-image: url("./IMG/skateboarding-1149507-1920.webp");
+   background-repeat: no-repeat;
+   background-size:  cover;
 }
 
-.banner-conteudo {
+
+
+
+.banner-conteudo  {
     font-family: dauphin;
     display: flex;
     flex-direction: column;
@@ -45,28 +65,31 @@ li a {
     align-items: center;
     height: 100dvh;
     font-size: 50px;
-    gap: 40px;
+    gap: 50px;
+    color: #f4f7f5;
+     
 }
 
 h2 {
     display: flex;
     justify-content: center;
-    font-size: 30px;
+    font-size: 70px;
     background: linear-gradient(to left, black, yellow);
+    margin-top: 10px;
 }
 
 .container-info {
     display: flex;
     justify-content: center;
     padding: 20px;
-    gap: 40px;
+    gap: 130px;
     background: linear-gradient(to left, black, yellow);
+
 }
 
 img {
-    width: 300px;
-    height: 400px;
-    box-shadow: 16px 19px 10px black;
+    width: 100px;
+    height: 100px;
 }
 
 .info {
@@ -130,4 +153,16 @@ button:hover {
     background-color: black;
     color: white;
     scale: 1.1;
+}
+
+
+.not-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+     background: linear-gradient(to left, black, yellow);
+    
 }

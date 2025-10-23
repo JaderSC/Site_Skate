@@ -13,7 +13,7 @@ form.addEventListener("submit", (evento) => {
     inputTel();
     inputEmail();
     inputDuvida();
-   
+   alert("Cadastrado com Sucesso");
 });
 
 function inputNome(){
