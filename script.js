@@ -13,25 +13,32 @@ form.addEventListener("submit", (evento) => {
     inputTel();
     inputEmail();
     inputDuvida();
-   alert("Cadastrado com Sucesso");
+    
+    alert(` 
+        Usuário Cadastrado Com Sucesso!
+
+        Nome: ${nome.value}
+        Telefone: ${tel.value}
+        Email: ${email.value}
+        Dúvida: ${duvida.value}`);
 });
 
-function inputNome(){
+function inputNome() {
     const recebeNome = nome.value;
     console.log(recebeNome);
 }
 
-function inputTel(){
+function inputTel() {
     const recebeTel = tel.value;
     console.log(recebeTel);
 }
 
-function inputEmail(){
+function inputEmail() {
     const recebeEmail = email.value;
     console.log(recebeEmail);
 }
 
-function inputDuvida(){
+function inputDuvida() {
     const recebeDuvida = duvida.value;
     console.log(recebeDuvida);
 }
