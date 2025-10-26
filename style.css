@@ -24,11 +24,8 @@ nav {
     position: fixed;
     width: 100dvw;
     display: flex;
-    z-index: 1000;
-    justify-content: space-between;
     align-items: center;
     padding: 20px 60px 20px 20px;
-    gap: 20px;
     background-color: #474350;
 
 }
@@ -38,7 +35,7 @@ nav {
     list-style: none;
     justify-content: end;
     gap: 50px;
-    margin-left: 1400px;
+    margin-left: 1000px;
     position: fixed;
 
 }
@@ -56,7 +53,6 @@ li a {
 }
 
 .banner-conteudo {
-    font-family: dauphin;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -66,7 +62,6 @@ li a {
     gap: 50px;
     color: #f4f7f5;
     background-image: url("./IMG/skateboarding-1149507-1920.webp");
-    background-repeat: no-repeat;
     background-size: cover;
 
 }
@@ -93,11 +88,10 @@ img {
 }
 
 .info {
-    display: flex;
-    justify-content: center;
+    
     font-size: 40px;
     margin-bottom: 20px;
-    background-color: #f4f7f5;
+    
 }
 
 section form {
@@ -159,38 +153,32 @@ button:hover {
 .not-info {
     display: flex;
     flex-direction: column;
-    align-items: center;
     width: 300px;
     height: 300px;
-    padding: 10px;
+    padding: 50px;
     background-color: #D9D9D9;
     align-items: center;
     justify-content: center;
 }
 
 .not-info h3 {
-    display: flex;
-    text-align: center;
-    margin-top: 20px;
-    gap: 10px;
+    margin: 15px 0 15px 0;
 }
 
-footer  {
-       background: #474350;
+footer {
+    background: #474350;
     display: flex;
     justify-content: space-around;
     width: 100dvw;
     height: 150px;
     font-size: 20px;
-   padding-left: 30px;
-   color: #FFC857;
-   align-items: center;
+    padding-left: 30px;
+    color: #FFC857;
+    align-items: center;
 }
 
-.logo-footer{
+.logo-footer {
     display: flex;
     justify-content: end;
     align-items: center;
 }
-
-
