@@ -13,6 +13,7 @@ form.addEventListener("submit", (evento) => {
     inputTel();
     inputEmail();
     inputDuvida();
+
     
     alert(` 
         Usuário Cadastrado Com Sucesso!
@@ -21,6 +22,8 @@ form.addEventListener("submit", (evento) => {
         Telefone: ${tel.value}
         Email: ${email.value}
         Dúvida: ${duvida.value}`);
+
+        limparFormulario();
 });
 
 function inputNome() {
@@ -41,5 +44,9 @@ function inputEmail() {
 function inputDuvida() {
     const recebeDuvida = duvida.value;
     console.log(recebeDuvida);
+}
+
+function limparFormulario() {
+    document.getElementById("form").reset();
 }
 

@@ -10,18 +10,20 @@
 </head>
 
 <body>
-    <header id="inicio"> 
+    <header id="inicio">
 
         <nav class="navbar">
 
-            <img class="logo"src="./IMG/logoSkate.png" alt="logo-skate">
-            <ul id="inicio" class="links">
+            <img class="logo" src="./IMG/logoSkate.png" alt="logo-skate">
 
-                <li><a href="#inicio">Home</a></li>
+            <ul class="links">
+                <li><a href="#">Home</a></li>
                 <li><a href="#sobre_nos">Sobre</a></li>
                 <li><a href="#produtos">Produtos</a></li>
                 <li><a href="#contato">Contatos</a></li>
             </ul>
+
+
         </nav>
     </header>
 
@@ -45,7 +47,7 @@
                     <article id="produtos" class="noticias">
 
                         <div class="not-info">
-                            <img src="./IMG/skate1.jpg" alt="skate-padrao">
+                            <img class="not-info-img" src="./IMG/skate1.jpg" alt="skate-padrao">
                             <h3>Skate Maple</h3>
                             <p>O estilo mais tradicional usado em diversas modalidades.</p><br>
                             <p>Por apenas R$ 134,90</p>
@@ -55,7 +57,7 @@
                     <article class="noticias">
 
                         <div class="not-info">
-                            <img src="./IMG/skate2.jpeg" alt="longboard">
+                            <img class="not-info-img" src="./IMG/skate2.jpeg" alt="longboard">
                             <h3>Longboard</h3>
                             <p>O modelo é muito utilizado em ladeiras e descidas, por se veloz.</p><br>
                             <p>Por apenas R$ 297,73</p>
@@ -64,7 +66,7 @@
 
                     <article class="noticias">
                         <div class="not-info">
-                            <img src="./IMG/skate3.jpg" alt="penny-skate">
+                            <img class="not-info-img" src="./IMG/skate3.jpg" alt="penny-skate">
                             <h3>Penny Skate</h3>
                             <p>Esse modelo é muito parecido com o long, porém menores.</p><br>
                             <p>Por apenas R$ 149,90</p>
@@ -76,19 +78,19 @@
 
         <h2 class="info" id="contato">Entre em Contato</h2>
 
-        <section id="form" class="formulario">
-            <form action="#">
+        <section class="formulario">
+            <form action="#" id="form">
 
 
-                <label for="">Nome:</label>
+                <label for="nome">Nome:</label>
                 <input id="nome" placeholder="Nome" type="text" required>
 
 
-                <label for="Telefone">Telefone:</label>
+                <label for="tel">Telefone:</label>
                 <input id="tel" placeholder="(11) 00000-0000" type="Tel" required>
 
 
-                <label for="">Email:</label>
+                <label for="email">Email:</label>
                 <input id="email" placeholder="E-mail" type="email" required>
 
 
@@ -109,11 +111,11 @@
             fixo)</p>
 
         <div id="sobre_nos" class="logo-footer">
-            <a href="#" target="_blank"><img src="https://img.icons8.com/?size=100&id=118497&format=png&color=000000"
-                    alt="facebook"></a>
-            <a href="#" target="_blank"><img
+            <a href="#" target="_blank"><img class="logo-rodape"
+                    src="https://img.icons8.com/?size=100&id=118497&format=png&color=000000" alt="facebook"></a>
+            <a href="#" target="_blank"><img class="logo-rodape"
                     src="https://img.icons8.com/?size=100&id=ZRiAFreol5mE&format=png&color=000000" alt="instagram"></a>
-            <a href="#" target="_blank"> <img
+            <a href="#" target="_blank"> <img class="logo-rodape"
                     src="https://img.icons8.com/?size=100&id=uZWiLUyryScN&format=png&color=000000" alt="WhatsApp"></a>
 
         </div>
