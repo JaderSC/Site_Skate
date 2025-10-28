@@ -4,6 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <script src="./script.js" defer></script>
     <title>Site de Skate</title>
@@ -22,6 +24,18 @@
                 <li><a href="#produtos">Produtos</a></li>
                 <li><a href="#contato">Contatos</a></li>
             </ul>
+
+             <div class="dropdown">
+                <button class="btn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <img class="dropdown-img"  src="./img/menu_24dp_BURLYWOOD_FILL0_wght400_GRAD0_opsz24.svg" alt="">
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#produtos">Produtos</a></li>
+                    <li><a href="#form">Contatos</a></li>
+                </ul>
+            </div>
 
 
         </nav>
@@ -49,8 +63,8 @@
                         <div class="not-info">
                             <img class="not-info-img" src="./IMG/skate1.jpg" alt="skate-padrao">
                             <h3>Skate Maple</h3>
-                            <p>O estilo mais tradicional usado em diversas modalidades.</p><br>
-                            <p>Por apenas R$ 134,90</p>
+                            <p>O estilo mais tradicional usado em diversas modalidades.</p>
+                            <span>Por apenas R$ 134,90</span>
                         </div>
                     </article>
 
@@ -59,8 +73,8 @@
                         <div class="not-info">
                             <img class="not-info-img" src="./IMG/skate2.jpeg" alt="longboard">
                             <h3>Longboard</h3>
-                            <p>O modelo é muito utilizado em ladeiras e descidas, por se veloz.</p><br>
-                            <p>Por apenas R$ 297,73</p>
+                            <p>O modelo é muito utilizado em ladeiras e descidas, por se veloz.</p>
+                            <span>Por apenas R$ 297,73</span>
                         </div>
                     </article>
 
@@ -68,8 +82,8 @@
                         <div class="not-info">
                             <img class="not-info-img" src="./IMG/skate3.jpg" alt="penny-skate">
                             <h3>Penny Skate</h3>
-                            <p>Esse modelo é muito parecido com o long, porém menores.</p><br>
-                            <p>Por apenas R$ 149,90</p>
+                            <p>Esse modelo é muito parecido com o long, porém menores.</p>
+                            <span>Por apenas R$ 149,90</span>
                         </div>
                     </article>
                 </div>
@@ -79,7 +93,8 @@
         <h2 class="info" id="contato">Entre em Contato</h2>
 
         <section class="formulario">
-            <form action="#" id="form">
+            
+            <form action="#" id="form" class="form">
 
 
                 <label for="nome">Nome:</label>
@@ -105,9 +120,13 @@
     </main>
 
     <footer>
+
+        <div class="container-footer">
+
+       
         <h4>CENTRAL DE RELACIONAMENTO: </h4>
 
-        <p class="roda-pe">(11) 3322-0050 (Telefone/WhatsApp) <br>0800-055-1000 (Interior de SP, somente telefone
+        <p class="roda-pe">(11) 3322-0050 (Telefone/WhatsApp) <br> 0800-055-1000 (Interior de SP, somente telefone
             fixo)</p>
 
         <div id="sobre_nos" class="logo-footer">
@@ -119,7 +138,13 @@
                     src="https://img.icons8.com/?size=100&id=uZWiLUyryScN&format=png&color=000000" alt="WhatsApp"></a>
 
         </div>
+
+         </div>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
 
 </body>
 
