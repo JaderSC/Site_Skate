@@ -10,6 +10,7 @@ body {
     font-family: "Poppins", sans-serif;
     line-height: 1.6;
     color: #333;
+    max-width: 100dvw;
 }
 
 .logo {
@@ -57,7 +58,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1200px;
+    width: 94dvw;
     padding: 2rem 3rem;
     margin: 0 auto;
 
@@ -92,12 +93,11 @@ li a {
     justify-content: center;
     align-items: center;
     height: 100dvh;
-    font-size: 50px;
+    font-size: 30px;
     color: #f4f7f5;
     background: url("./IMG/skateboarding-1149507-1920.webp") no-repeat center center/cover;
-
-
-
+    background-color: #474350;
+   max-width: 100%;
 }
 
 .section-noticias {
@@ -229,6 +229,7 @@ button:hover {
     width: 300px;
     height: 300px;
     padding: 10px;
+    border-radius: 20px;
 }
 
 .not-info h3 {
@@ -239,12 +240,12 @@ footer {
     background: #474350;
     display: flex;
     justify-content: space-around;
-    width: 100dvw;
+    width: 99dvw;
     height: 150px;
     font-size: 20px;
     padding-left: 30px;
     color: #FFC857;
-    align-items: center;
+    align-items: center
 }
 
 .container-footer {
@@ -396,35 +397,35 @@ footer {
 
     }
 
-     .dropdown {
-            display: flex;
-            width: 150px;
-            margin-right: 40px;
+    .dropdown {
+        display: flex;
+        width: 150px;
+        margin-right: 40px;
 
-        }
+    }
 
-         .dropdown-menu {
-            width: 300px;
-           
-        }
+    .dropdown-menu {
+        width: 300px;
 
-        .dropdown-menu li {
-            font-size: 10px;
-        }
+    }
 
-        .dropdown-img {
-            width: 100px;
-           
+    .dropdown-menu li {
+        font-size: 10px;
+    }
 
-        }
+    .dropdown-img {
+        width: 100px;
 
-        .container-info {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            padding: 30px;
 
-        }
+    }
+
+    .container-info {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 30px;
+
+    }
 
     .not-info {
         display: flex;
@@ -492,7 +493,7 @@ footer {
 
     main {
 
-        .banner-conteudo h1{
+        .banner-conteudo h1 {
             font-size: 38px;
         }
 
@@ -542,24 +543,24 @@ footer {
             width: 100%;
         }
 
-         .not-info h3 {
-           text-align: center;
-           font-size: 40px;
+        .not-info h3 {
+            text-align: center;
+            font-size: 40px;
         }
 
-         .not-info p {
-           text-align: center;
-           font-size: 20px;
+        .not-info p {
+            text-align: center;
+            font-size: 20px;
         }
 
-         .not-info span {
-           text-align: center;
-           font-size: 20px;
-           margin-bottom: 10px;
+        .not-info span {
+            text-align: center;
+            font-size: 20px;
+            margin-bottom: 10px;
         }
 
         .not-info-img {
-            width: 300px;
+            width: 200px;
             height: 200px;
             border-radius: 20px;
         }
